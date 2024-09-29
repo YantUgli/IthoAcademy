@@ -1,0 +1,13 @@
+{
+  "extends": "@adonisjs/tsconfig/tsconfig.app.json",
+  "compilerOptions": {
+    "rootDir": "./",
+    "outDir": "./build"
+    // "forceConsistentCasingInFileNames": false
+    // "baseUrl": ".", // Tambahkan ini untuk memastikan bahwa baseUrl diatur ke direktori proyek
+    // "paths": {
+    //   "App/*": ["app/*"],
+    //   "@ioc:Adonis/Core/*": ["node_modules/@adonisjs/core/build/adonis-typings/*"]
+    // }
+  }
+}
